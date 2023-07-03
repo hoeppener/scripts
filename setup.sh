@@ -54,7 +54,6 @@ apps=(
   microsoft-outlook
   miro
   spotify
-  virtualbox
   visual-studio-code
   zoom
 )
