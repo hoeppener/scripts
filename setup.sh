@@ -51,7 +51,6 @@ apps=(
   github
   microsoft-teams
   microsoft-office
-  microsoft-outlook
   miro
   spotify
   visual-studio-code
