@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # new user account details
-username="admin"
+username="testAdmin"
 displayName="Pacemaker Admin"
 password="P@55w0rd"
 admin="yes"
