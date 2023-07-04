@@ -45,7 +45,7 @@ brew install homebrew/cask
 
 apps=(
   bitwarden
-  Bitwarden-cli
+  bitwarden-cli
   dropbox
   docker
   firefox
