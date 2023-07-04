@@ -11,8 +11,11 @@
 # Check for Homebrew,
 echo "Installing homebrew..."
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/admin/.zprofile
+
+echo "installation of homebrew done..."
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /private/var/admin/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
+echo "homebrew added to path..."
 
 # Update homebrew recipes
 echo "Updating homebrew..."
@@ -22,9 +25,6 @@ echo "Installing Git..."
 brew install git
 
 echo "Git config"
-
-git config --global user.name "Andreas Hoeppener"
-git config --global user.email Andreas.hoeppener@pacemaker.ai
 
 echo "Installing brew git utilities..."
 brew install git-extras
@@ -44,6 +44,7 @@ brew install homebrew/cask
 
 apps=(
   bitwarden
+  Bitwarden-cli
   dropbox
   docker
   firefox
@@ -68,5 +69,3 @@ brew cleanup
 killall Finder
 
 echo "Done!"
-
-#@TODO install vagrant and sites folder
