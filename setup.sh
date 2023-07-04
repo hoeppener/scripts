@@ -39,13 +39,13 @@ brew install trash
 brew install svn
 brew install mackup
 brew install node
+brew install bitwarden-cli
 
 echo "Installing homebrew cask"
 brew install homebrew/cask
 
 apps=(
   bitwarden
-  bitwarden-cli
   dropbox
   docker
   firefox
