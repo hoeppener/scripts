@@ -1,3 +1,4 @@
+echo "Lets go!"
 # echo "Creating an SSH key for you..."
 # ssh-keygen -t rsa
 
